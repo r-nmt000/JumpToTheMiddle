@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "JumpToMiddle",
+    "description": "JumpToMiddle",
+    "version": "1.0",
+
+    "permissions": [
+        "tabs", "http://*/*"
+    ],
+    "background":{
+	"scripts":["background.js"]
+    },
+    "commands": {
+        "shortcut": {
+            "suggested_key": { "default": "Ctrl+8" },
+            "description": "jump to middle"
+        }
+    }
+}
